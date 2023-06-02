@@ -15,10 +15,6 @@ setup(
     author_email="spence@duck.com",
     url="https://github.com/splch/py-basic-bar",
     packages=find_packages(),
-    install_requires=[
-        "sys",
-        "time"
-    ],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
