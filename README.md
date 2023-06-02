@@ -1,9 +1,9 @@
-# Simple Bar
+# Basic Bar
 
-A simple and efficient progress bar in Python
+A basic and efficient progress bar in Python
 
 ```python
-from simplebar import bar
+from basic_bar import bar
 
 for _ in bar(range(1000000)):
     pass

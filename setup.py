@@ -6,14 +6,14 @@ with open(path.join(this_directory, 'README.md')) as f:
     long_description = f.read()
 
 setup(
-    name="simplebar",
+    name="basic-bar",
     version="0.1",
     description="A simple and efficient progress bar",
     long_description=long_description,
     long_description_content_type='text/markdown',
     author="Spencer Churchill",
     author_email="spence@duck.com",
-    url="https://github.com/splch/py-simplebar",
+    url="https://github.com/splch/py-basic-bar",
     packages=find_packages(),
     install_requires=[
         "sys",
