@@ -2,7 +2,7 @@ import time
 import unittest
 from unittest.mock import patch
 from io import StringIO
-from basic_bar.basic_bar import bar
+from basic_bar import bar
 
 
 class TestProgressBar(unittest.TestCase):
