@@ -7,7 +7,7 @@ with open(path.join(this_directory, 'README.md')) as f:
 
 setup(
     name="basic-bar",
-    version="0.3",
+    version="0.4",
     description="A simple and efficient progress bar",
     long_description=long_description,
     long_description_content_type='text/markdown',
