@@ -1,7 +1,7 @@
 import time, sys
 
 
-def progress(iterable, length=33):
+def bar(iterable, length=33):
     total, start = len(iterable), time.monotonic()
     for count, it in enumerate(iterable, 1):
         yield it
